@@ -3,7 +3,7 @@ alphaBASIC is a robust interpreter for the BASIC programming language written in
 
 Defintions, instructions, and a sample program are all provided below. Enjoy!
 
-### Execution Instructions
+### Execution Instructions:
 Compile interpreter using make.
 
 Include name of BASIC input file as command line argument which can be a .txt, .in, or any similar file type.  
