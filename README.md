@@ -1,4 +1,6 @@
 # alphaBASIC
+alphaBASIC is a robust interpreter for the BASIC programming language written in C++ by Conor McCormack in Fall 2019. It is able to parse and execute control flow commands, binary arithmetic, and variable assignments including multi-dimensional arrays.
+
 Compile interpreter using make.
 
 Include name of BASIC input file as command line argument which can be a .txt, .in, or any similar file type.  
@@ -7,11 +9,11 @@ basic_interpreter myInput.txt
 ```
 
 ### Some Definitions:
-\<AEXPR\> is an arithmetic expression. This can be the name of a variable, a constant integer such as 45, a binary arithemtic operation (e.g. \<AEXPR\> + \<AEXPR\>, or an array with an evaluated index (e.g. MYARR[\<AEXPR\>])
+**\<AEXPR\>** is an arithmetic expression. This can be the name of a variable, a constant integer such as 45, a binary arithemtic operation (e.g. \<AEXPR\> + \<AEXPR\>, or an array with an evaluated index (e.g. MYARR[\<AEXPR\>])
 
-\<BEXPR\> is a boolean expression. This is an expression of the format (\<AEXPR\> \<  \<AEXPR\>), and will evaluate to either **True** or **False**. Less than \<, Greater than \>, and equal to \= comparisons are all supported.
+**\<BEXPR\>** is a boolean expression. This is an expression of the format (\<AEXPR\> \<  \<AEXPR\>), and will evaluate to either **True** or **False**. Less than \<, Greater than \>, and equal to \= comparisons are all supported.
 
-\<LINEJ> Is a line jump. This should be the number of a line that exists in the BASIC program, which the interpreter will use to execute the **IF**, **GOSUB**, and **GOTO** commands. 
+**\<LINEJ>** Is a line jump. This should be the number of a line that exists in the BASIC program, which the interpreter will use to execute the **IF**, **GOSUB**, and **GOTO** commands. 
 
 *Note*: Each line in the input BASIC program requires a line number preceeding the actual command. This is used for the **IF**, **GOSUB**, and **GOTO** commands. These lines do not necessarily have to be in consecutive order, but should be monotonically increasing without repeated line numbers.
 
