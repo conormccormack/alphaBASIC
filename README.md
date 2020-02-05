@@ -1,6 +1,9 @@
 # alphaBASIC
-alphaBASIC is a robust interpreter for the BASIC programming language written in C++ by Conor McCormack in Fall 2019. It is able to parse and execute control flow commands, binary arithmetic, and variable assignments including multi-dimensional arrays.
+alphaBASIC is a robust interpreter for the BASIC programming language written in C++ by Conor McCormack in Fall 2019. alphaBASIC is able to parse and execute control flow commands, binary arithmetic, and variable assignments including multi-dimensional arrays.
 
+Defintions, instructions, and a sample program are all provided below. Enjoy!
+
+### Execution Instructions
 Compile interpreter using make.
 
 Include name of BASIC input file as command line argument which can be a .txt, .in, or any similar file type.  
